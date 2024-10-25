@@ -1,0 +1,5 @@
+print("To'g'ri burchakli  uchburchakning katetlarini kiriting (a va b)")
+a =float(input("a = "))
+b =float(input("b = "))
+print("c(gipotenuzasi) = ", (a**2 + b**2)**(1/2))
+print("Perimeter = ",a + b + (a**2 + b**2)**(1/2))

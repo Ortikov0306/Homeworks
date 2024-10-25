@@ -1,0 +1,8 @@
+V1 =float(input("V1(birinchi avtomibil tezligi) = "))
+V2 =float(input("V2(ikkinchi avtomobil tezligi) = "))
+T =float(input("T(vaqt) = "))
+S =float(input("S(boshlang'ich holatda orasidagi masofa) = "))
+print("Agar bir-biridan uzoqlashsa")
+print("K(T vaqtdan so'ng ular orasidagi masofa) = ", (V1 + V2)*T + S)
+print("Agar bir-biri tomon yaqinlashsa")
+print("K(T vaqtdan so'ng ular orasidagi masofa) = ", (((V1 - V2)*T + S)**2)**(1/2))

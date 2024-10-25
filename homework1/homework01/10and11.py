@@ -1,0 +1,8 @@
+print("Sonlarni(nolga teng bo'lmagan) kiriting")
+a =float(input("a = "))
+b =float(input("b = "))
+print("Yig'indisi = ", a + b)
+print("Ko'paytmasi = ", a*b)
+print("Kvadratlari yig'indisi = ", a**2 + b**2)
+print("|a| = ", (b**2)**(1/2))
+print("|b| = ", (a**2)**(1/2))

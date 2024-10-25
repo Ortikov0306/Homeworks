@@ -1,0 +1,5 @@
+V =float(input("V(oqim bo'yica tezligi) = "))
+U =float(input("U(oqimga qarshi tezligi) = "))
+T1 =float(input("T1(oqim bo'yica suzgan vaqti) = "))
+T2 =float(input("T2(oqimga qarshi suzgan vaqti) = "))
+print("S(masofa) = ", V*T1 - U*T2)

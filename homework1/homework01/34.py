@@ -1,0 +1,5 @@
+X =float(input("X = "))
+Y =float(input("Y = "))
+A =float(input("A = "))
+B =float(input("B = "))
+print("1 kg va 1 kg konfet ", A/X + B/Y , "so'm turadi")

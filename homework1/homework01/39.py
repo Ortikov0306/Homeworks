@@ -1,0 +1,5 @@
+A =float(input("A(noldan farqli) = "))
+B =float(input("B = "))
+C =float(input("C = "))
+print("x1 = ", (-B + (B**2 + 4*A*C)**(1/2))/2)
+print("x2 = ", (-B - (B**2 + 4*A*C)**(1/2))/2)

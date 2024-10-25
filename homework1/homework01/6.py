@@ -1,0 +1,6 @@
+print("Paralelepepidning tomonlarini kiriting")
+a =float(input("a = "))
+b =float(input("b = "))
+c =float(input("c = "))
+print("Hajmi = ", a*b*c)
+print("Yuzasi = ", 2*(a*b + b*c + c*a))
