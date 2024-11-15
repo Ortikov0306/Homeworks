@@ -166,8 +166,32 @@
 #     print('it is not number that claimed')
 # -------------------------------------------------------
 #Problem 3 of Boolean Data Type
+# a = [1,2]
+# b = [3,4]
+# print(a + b)
+# for i in range(10):
+#     #i=0
+#     for j in range(5):
+#     #j=0
+#         print(f"{i}{j}")
+# a = 4
+# while a < 10:
+#     a += 1
+#     print(a, '10 dan kichik')
+# else:
+#     print('Loop finished')
+
+print("Outside of the loop")
+n = int(input())
+ans = 'tub son'
+for i in range(2,n):
+    if n%i == 0:
+        ans = 'tub son emas'
+        break
+print(ans)
 
 
+     
 
 
 
